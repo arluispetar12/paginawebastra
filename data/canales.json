@@ -84,12 +84,6 @@
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
                     "calidad": "HD",
                     "region": "Internacional"
-                },
-                {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
-                    "calidad": "fHD",
-                    "region": "Internacional"
                 }
             ]
         },
@@ -99,22 +93,53 @@
             "icono": "fa-film",
             "canales": [
                 {
+                    "nombre": "BABY TV",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/215px-Discovery_Kids_Logo_2021-Presente.webp.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "CARTOON NETWORK",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/225px-Cartoon_Network_2010_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Cartoonito",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/300px-Cartoonito_-_Logo_2021.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
                     "nombre": "Discovery KIDS",
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/215px-Discovery_Kids_Logo_2021-Presente.webp.png",
-                    "calidad": "FHD",
-                    "region": "Internacional"
-                },
-                {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
                     "calidad": "HD",
-                    "region": "Internacional"
+                    "region": "Latinoamérica"
                 },
                 {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "nombre": "Disney Jr",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/300px-Disney_Jr._2024.svg.png",
                     "calidad": "fHD",
-                    "region": "Internacional"
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Nickelodeon",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/500px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                    
+                },
+                {
+                    "nombre": "Nick Jr.",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/500px-Nick_Jr._logo_2023_%28outline%29.svg.png",
+                    "calidad": "SD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Tooncast",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo_de_Tooncast.svg/330px-Logo_de_Tooncast.svg.png",
+                    "calidad": "fHD",
+                    "region": "Latinoamérica"
                 }
             ]
         },
