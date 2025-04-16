@@ -6,26 +6,63 @@
             "icono": "fa-tv",
             "canales": [
                 {
-                    "nombre": "Canal 5",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/250px-Canal_5_Mexico_logo_2014.svg.png",
+                    "nombre": "A&E",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/250px-A%26E_Network_logo.svg.png",
                     "calidad": "HD",
-                    "region": "México"
+                    "region": "Latinoamérica"
 
+                },
+                {
+                    "nombre": "AMC",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/330px-AMC_logo_2019.svg.png",
+                    "calidad": "HD",
+                    "region": "Mexico"
                 },
                 {
                     "nombre": "AXN",
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/330px-AXN_logo_%282015%29.svg.png",
                     "calidad": "HD",
-                    "region": "Internacional"
+                    "region": "España"
                 },
-                {
-                    "nombre": "Warner Channel",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/250px-Warner2018LA.png",
+                 {
+                    "nombre": "COMEDY CENTRAL",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/500px-Comedy_Central_2018.svg.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
-                }, {
-                    "nombre": "Warner Channel",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/250px-Warner2018LA.png",
+                },
+                {
+                    "nombre": "FX",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/250px-FX_International_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "PARAMOUNT ",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Paramount_Pictures_2022_%28Blue%29.svg/500px-Paramount_Pictures_2022_%28Blue%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "STAR CHANNEL ",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/330px-Star_Channel_2020.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "SONY ",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/250px-Sony_Channel_Logo.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "TNT SERIES",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/TNT_Series_Logo_2016.png/141px-TNT_Series_Logo_2016.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "UNIVERSAL CHANNEL",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/345px-Universal_TV_logo.svg.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
                 }
