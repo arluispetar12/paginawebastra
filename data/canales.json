@@ -80,6 +80,31 @@
                     "region": "Internacional"
                 }
             ]
+        },
+        {
+            "id": "Desportes",
+            "nombre": "Desportes",
+            "icono": "fa-futbol",
+            "canales": [
+                {
+                    "nombre": "Win Sport +",
+                    "logo": "hthttps://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Win%2B_F%C3%BAtbol_logo.svg/330px-Win%2B_F%C3%BAtbol_logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Colombia"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "fHD",
+                    "region": "Internacional"
+                }
+            ]
         }
     ]
 }
