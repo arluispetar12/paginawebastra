@@ -93,16 +93,58 @@
                     "region": "Colombia"
                 },
                 {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "nombre": "ESPN 2",
+                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png",
                     "calidad": "HD",
-                    "region": "Internacional"
+                    "region": "Latinoamérica"
                 },
                 {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
-                    "calidad": "fHD",
-                    "region": "Internacional"
+                    "nombre": "ESPN 3",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/330px-ESPN3_Logo.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "ESPN 4",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/330px-ESPN_4_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "ESPN 5",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/ESPN_5_logo.svg/330px-ESPN_5_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "ESPN 6",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ESPN_6_logo.svg/270px-ESPN_6_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "ESPN 7",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ESPN_7_logo.svg/330px-ESPN_7_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "ESPN",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/300px-ESPN_wordmark.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "TNT",
+                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/173px-TNT_Logo_2016.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "UNITEL",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/New_Unitel_logo_HD.jpg/330px-New_Unitel_logo_HD.jpg",
+                    "calidad": "HD",
+                    "region": "Peru/Bolivia"
                 }
             ]
         }
