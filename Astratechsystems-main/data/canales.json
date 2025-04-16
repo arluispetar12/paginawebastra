@@ -1,0 +1,85 @@
+{
+    "categorias": [
+        {
+            "id": "entretenimiento",
+            "nombre": "Entretenimiento",
+            "icono": "fa-tv",
+            "canales": [
+                {
+                    "nombre": "Canal 5",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/250px-Canal_5_Mexico_logo_2014.svg.png",
+                    "calidad": "HD",
+                    "region": "México"
+
+                },
+                {
+                    "nombre": "AXN",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/330px-AXN_logo_%282015%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Warner Channel",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/250px-Warner2018LA.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }, {
+                    "nombre": "Warner Channel",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/250px-Warner2018LA.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }
+            ]
+        },
+        {
+            "id": "peliculas",
+            "nombre": "Películas",
+            "icono": "fa-film",
+            "canales": [
+                {
+                    "nombre": "HBO",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1200px-HBO_logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "fHD",
+                    "region": "Internacional"
+                }
+            ]
+        },
+        {
+            "id": "infantiles",
+            "nombre": "infantiles",
+            "icono": "fa-film",
+            "canales": [
+                {
+                    "nombre": "Discovery KIDS",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/215px-Discovery_Kids_Logo_2021-Presente.webp.png",
+                    "calidad": "FHD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Cinemax",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "calidad": "fHD",
+                    "region": "Internacional"
+                }
+            ]
+        }
+    ]
+}

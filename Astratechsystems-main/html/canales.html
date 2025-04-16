@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Canales - Astratech Systems</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/canales.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="canales-header">
+        <div class="container">
+            <h1>Lista de Canales Premium</h1>
+            <p>Más de 150 canales internacionales en HD y FHD</p>
+            <a href="../index.html" class="btn-volver"><i class="fas fa-arrow-left"></i> Volver al inicio</a>
+        </div>
+
+       
+        
+    </header>
+    <div class="filtros">
+        <input type="text" id="buscador-canales" placeholder="🔍 Buscar canal..." onkeyup="filtrarCanales()">
+        <div class="filtro-categorias">
+            <button class="filtro-btn active" onclick="filtrarPorCategoria('todas')">Todas</button>
+            <button class="filtro-btn" onclick="filtrarPorCategoria('entretenimiento')">Entretenimiento</button>
+            <button class="filtro-btn" onclick="filtrarPorCategoria('peliculas')">Películas</button>
+            <button class="filtro-btn" onclick="filtrarPorCategoria('deportes')">Deportes</button>
+            <button class="filtro-btn" onclick="filtrarPorCategoria('noticias')">Noticias</button>
+            <button class="filtro-btn" onclick="filtrarPorCategoria('infantiles')">Infantiles</button>
+        </div>
+    <section class="categorias-canales container" id="contenedor-categorias">
+        <!-- Las categorías y canales se cargarán dinámicamente aquí -->
+ 
+    </section>
+
+    
+     <!-- Botón flotante para mostrar/ocultar el carrito -->
+     <div class="carrito-toggle" onclick="toggleCarrito()">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="contador-toggle">0</span>
+    </div>
+
+    <!-- Contenedor del carrito -->
+    <div class="carrito-container" id="carrito-container">
+        <div class="carrito-header">
+            <h3><i class="fas fa-shopping-cart"></i> Canales Seleccionados</h3>
+            <span id="contador-carrito">0</span>
+        </div>
+        <div class="carrito-lista" id="lista-carrito">
+            <p class="carrito-vacio">No has seleccionado ningún canal aún</p>
+        </div>
+        <div class="carrito-acciones">
+            <button class="btn-limpiar" onclick="limpiarCarrito()">Limpiar</button>
+            <button class="btn-whatsapp" onclick="enviarWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Cotizar por WhatsApp
+            </button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Astratech Systems. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/canales.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>
