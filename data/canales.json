@@ -80,11 +80,65 @@
                     "region": "Internacional"
                 },
                 {
-                    "nombre": "Cinemax",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/263px-Cinemax_%28Yellow%29.svg.png",
+                    "nombre": "Cine canal",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/330px-CinecanalLA.png",
                     "calidad": "HD",
                     "region": "Internacional"
-                }
+                },
+                {
+                    "nombre": "Golden Edge",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Golden_Edge_Logo_2020.png/360px-Golden_Edge_Logo_2020.png",
+                    "calidad": "FHD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "HBO 2",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/298px-HBO2_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "HBO FAMILY",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/330px-HBO_Family.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "HBO MUNDI",
+                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/250px-HBO_Mundi.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "HBO XTREME",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/330px-HBO_Xtreme.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                  {
+                    "nombre": "SONY MOVIE",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/250px-Sony_Movies_Logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Studio Universal",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/586px-StudioUniversal2016.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "SPACE",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/500px-SpaceLogo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },{
+                    "nombre": "TCM",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TCM_Latam_logo.svg/240px-TCM_Latam_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                
             ]
         },
         {
