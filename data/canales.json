@@ -82,7 +82,7 @@
             ]
         },
         {
-            "id": "desportes",
+            "id": "deportes",
             "nombre": "Desportes",
             "icono": "fa-futbol",
             "canales": [
