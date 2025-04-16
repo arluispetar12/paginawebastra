@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico - Astratech Systems</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/soporte.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="soporte-header">
+        <div class="container">
+            <h1>Soporte Técnico Especializado</h1>
+            <p>Soluciones profesionales para tus sistemas de televisión y redes</p>
+            <a href="../index.html" class="btn-volver">
+                <i class="fas fa-arrow-left"></i> Volver al inicio
+            </a>
+        </div>
+    </header>
+
+    <section class="servicios-soporte container">
+        <div class="intro-soporte">
+            <h2><i class="fas fa-headset"></i> Nuestros Servicios de Soporte</h2>
+            <p>Ofrecemos asistencia técnica especializada para las principales plataformas y tecnologías del mercado.</p>
+        </div>
+
+        <div class="filtros-soporte">
+            <input type="text" id="buscador-soporte" placeholder="🔍 Buscar servicio...">
+            <div class="filtro-categorias">
+                <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                <button class="filtro-btn" data-categoria="tv">TV</button>
+                <button class="filtro-btn" data-categoria="servidores">Servidores</button>
+                <button class="filtro-btn" data-categoria="redes">Redes</button>
+            </div>
+        </div>
+
+        <div class="grid-soporte" id="contenedor-servicios">
+            <!-- Soporte Astra -->
+            <div class="soporte-card" data-categoria="tv" data-nombre="astra">
+                <div class="soporte-imagen">
+                    <img src="https://cdn.cesbo.com/logo.svg" alt="Soporte Astra" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte Cesbo Astra</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Instalación y configuración</li>
+                        <li><i class="fas fa-check"></i> Diagnóstico </li>
+                        <li><i class="fas fa-check"></i> Mantenimiento </li>
+                        <li><i class="fas fa-check"></i> Optimización </li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte Xtream UI -->
+            <div class="soporte-card" data-categoria="tv" data-nombre="xtream ui">
+                <div class="soporte-imagen">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAmt57VOCd-PqLRi1XXLjH7m1uWZqzJ42NQYOm4G0VRPmdRwjgdSB8AGPo6nPKpTc2aY&usqp=CAU" alt="Soporte Xtream UI" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte Xtream UI</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Configuración inicial</li>
+                        <li><i class="fas fa-check"></i> Administración de paneles</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento</li>
+                        <li><i class="fas fa-check"></i> Balanceo de carga</li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte Ubuntu Server -->
+            <div class="soporte-card" data-categoria="servidores" data-nombre="ubuntu server">
+                <div class="soporte-imagen">
+                    <img src="https://cdn.worldvectorlogo.com/logos/ubuntu-4.svg" alt="Soporte Ubuntu Server" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte Ubuntu Server</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Instalación y configuración</li>
+                        <li><i class="fas fa-check"></i> Diagnóstico</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento </li>
+                        <li><i class="fas fa-check"></i> Optimización</li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte MikroTik -->
+            <div class="soporte-card" data-categoria="redes" data-nombre="mikrotik">
+                <div class="soporte-imagen">
+                    <img src="https://static-00.iconduck.com/assets.00/mikrotik-icon-1921x2048-1eai97he.png" alt="Soporte MikroTik" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte MikroTik</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Configuración de routers</li>
+                        <li><i class="fas fa-check"></i> Firewall y QoS</li>
+                        <li><i class="fas fa-check"></i> Balanceo (ECMP,PCC, Nth ,Failover)</li>
+                        <li><i class="fas fa-check"></i> Diagnósticos</li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte OLTs -->
+            <div class="soporte-card" data-categoria="redes" data-nombre="olts">
+                <div class="soporte-imagen">
+                    <img src="https://w7.pngwing.com/pngs/68/589/png-transparent-huawei-logo-huawei-logo-huawei-logo-thumbnail.png" alt="Soporte OLTs" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte OLTs</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Configuración </li>
+                        <li><i class="fas fa-check"></i> Diagnóstico</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento</li>
+                        <li><i class="fas fa-check"></i> Optimización</li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+            <!-- Soporte Middleware -->
+            <!-- <div class="soporte-card" data-categoria="tv" data-nombre="middleware">
+                <div class="soporte-imagen">
+                    <img src="../img/soporte/middleware.jpg" alt="Soporte Middleware" loading="lazy">
+                </div>
+                <div class="soporte-contenido">
+                    <h3>Soporte Middleware</h3>
+                    <ul class="servicios-incluidos">
+                        <li><i class="fas fa-check"></i> Ministra TV</li>
+                        <li><i class="fas fa-check"></i> Stalker Portal</li>
+                        <li><i class="fas fa-check"></i> Configuraciones avanzadas</li>
+                        <li><i class="fas fa-check"></i> Problemas de autenticación</li>
+                    </ul>
+                    <button class="btn-soporte">
+                        <i class="fab fa-whatsapp"></i> Solicitar Soporte
+                    </button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="info-soporte container">
+        <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <h3>Soporte 24/7</h3>
+            <p>Disponibilidad permanente para emergencias y problemas críticos.</p>
+        </div>
+        <div class="info-card">
+            <i class="fas fa-certificate"></i>
+            <h3>Expertos Certificados</h3>
+            <p>Técnicos especializados en cada una de las plataformas.</p>
+        </div>
+        <div class="info-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Solución Garantizada</h3>
+            <p>Compromiso de resolver tus problemas técnicos eficientemente.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Astratech Systems. Todos los derechos reservados.</p>
+            <div class="footer-contacto">
+                <a href="https://wa.me/573011382447" target="_blank"><i class="fab fa-whatsapp"></i> Soporte por WhatsApp</a>
+                <a href="mailto:soporte@astratech.com"><i class="fas fa-envelope"></i> Soporte por Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/soporte.js"></script>
+</body>
+</html>

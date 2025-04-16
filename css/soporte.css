@@ -1,0 +1,351 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.soporte-header {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.soporte-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.soporte-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+}
+
+/* Botón Volver al inicio */
+.btn-volver {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 500;
+    font-size: 1rem;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn-volver:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-volver i {
+    font-size: 0.9rem;
+}
+
+/* Sección de servicios */
+.servicios-soporte {
+    padding: 2rem 0;
+}
+
+.intro-soporte {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.intro-soporte h2 {
+    font-size: 2rem;
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.intro-soporte p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Filtros */
+.filtros-soporte {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#buscador-soporte {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+#buscador-soporte:focus {
+    outline: none;
+    border-color: #1a2a6c;
+    box-shadow: 0 2px 15px rgba(26, 42, 108, 0.1);
+}
+
+.filtro-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.filtro-btn {
+    padding: 0.6rem 1.2rem;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.filtro-btn:hover {
+    background: #e0e0e0;
+}
+
+.filtro-btn.active {
+    background: #1a2a6c;
+    color: white;
+}
+
+/* Grid de servicios */
+.grid-soporte {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.soporte-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.soporte-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.soporte-imagen {
+    height: 200px;
+    overflow: hidden;
+}
+
+.soporte-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.soporte-card:hover .soporte-imagen img {
+    transform: scale(1.05);
+}
+
+.soporte-contenido {
+    padding: 1.5rem;
+}
+
+.soporte-contenido h3 {
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.servicios-incluidos {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.servicios-incluidos li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #444;
+}
+
+.servicios-incluidos i {
+    color: #1a2a6c;
+}
+
+.btn-soporte {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: #1a2a6c;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn-soporte:hover {
+    background: #0f1a4a;
+    transform: translateY(-2px);
+}
+
+/* Sección de información */
+.info-soporte {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.info-card i {
+    font-size: 2.5rem;
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+}
+
+.info-card h3 {
+    color: #1a2a6c;
+    margin-bottom: 1rem;
+}
+
+.info-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #1a2a6c;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+.footer-contacto {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer-contacto a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.footer-contacto a:hover {
+    color: #fdbb2d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .soporte-header {
+        padding: 3rem 0;
+    }
+    
+    .soporte-header h1 {
+        font-size: 2rem;
+    }
+    
+    .soporte-header p {
+        font-size: 1rem;
+    }
+    
+    .btn-volver {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .grid-soporte {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-soporte {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
