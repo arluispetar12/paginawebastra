@@ -88,13 +88,13 @@
             "canales": [
                 {
                     "nombre": "Win Sport +",
-                    "logo": "hthttps://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Win%2B_F%C3%BAtbol_logo.svg/330px-Win%2B_F%C3%BAtbol_logo.svg.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Win%2B_F%C3%BAtbol_logo.svg/330px-Win%2B_F%C3%BAtbol_logo.svg.png",
                     "calidad": "FHD",
                     "region": "Colombia"
                 },
                 {
                     "nombre": "ESPN 2",
-                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
                 },
