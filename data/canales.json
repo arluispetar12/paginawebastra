@@ -263,6 +263,42 @@
                     "region": "Peru/Bolivia"
                 }
             ]
+        },{
+            "id": "noticias",
+            "nombre": "noticias",
+            "icono": "fa-newspaper",
+            "canales": [
+                {
+                    "nombre": "América Televisión +",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/330px-Am%C3%A9rica_Televisi%C3%B3n.svg.png",
+                    "calidad": "HD",
+                    "region": "Peru"
+                },
+                {
+                    "nombre": "Canal I",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_canal_i_venezuela.png/500px-Logo_canal_i_venezuela.png",
+                    "calidad": "HD",
+                    "region": "Venezuela"
+                },
+                {
+                    "nombre": "Globovisión",
+                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo-Globovisi%C3%B3n.png/280px-Logo-Globovisi%C3%B3n.png",
+                    "calidad": "HD",
+                    "region": "Venezuela"
+                },
+                {
+                    "nombre": "Panamericana Televisión",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Segundo_Logotipo_de_Panamericana_Televisi%C3%B3n.svg/500px-Segundo_Logotipo_de_Panamericana_Televisi%C3%B3n.svg.png",
+                    "calidad": "HD",
+                    "region": "Peru"
+                },
+                {
+                    "nombre": "Telesur",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/TeleSUR.jpg",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }
+            ]
         }
     ]
 }
