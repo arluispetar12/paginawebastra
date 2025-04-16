@@ -132,13 +132,13 @@
                 {
                     "nombre": "Nick Jr.",
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/500px-Nick_Jr._logo_2023_%28outline%29.svg.png",
-                    "calidad": "SD",
+                    "calidad": "HD",
                     "region": "Latinoamérica"
                 },
                 {
                     "nombre": "Tooncast",
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo_de_Tooncast.svg/330px-Logo_de_Tooncast.svg.png",
-                    "calidad": "fHD",
+                    "calidad": "HD",
                     "region": "Latinoamérica"
                 }
             ]
