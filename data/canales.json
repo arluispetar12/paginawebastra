@@ -148,7 +148,7 @@
             "canales": [
                 {
                     "nombre": "BABY TV",
-                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/215px-Discovery_Kids_Logo_2021-Presente.webp.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Babytvv.png/500px-Babytvv.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
                 },
@@ -293,6 +293,26 @@
                     "calidad": "HD",
                     "region": "Latinoamérica"
                 }
+            ]
+        },
+        {
+            "id": "novelas",
+            "nombre": "Novelas",
+            "icono": "fas fa-tv",
+            "canales": [
+                {
+                    "nombre": "Tele novelas",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tlnovelas_logo_2021.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Las estrellas",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LasEstrellasElTrece.png/500px-LasEstrellasElTrece.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }
+                
             ]
         }
     ]
