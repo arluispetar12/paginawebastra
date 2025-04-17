@@ -311,6 +311,12 @@
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LasEstrellasElTrece.png/500px-LasEstrellasElTrece.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "TELE MUNDO",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/330px-Telemundo_logo_2018.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
                 }
                 
             ]
