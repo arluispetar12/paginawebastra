@@ -395,7 +395,7 @@
                 },
                 {
                     "nombre": "Discovery Channel",
-                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/500px-2019_Discovery_logo.svg.png",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/500px-2019_Discovery_logo.svg.png",
                     "calidad": "FHD",
                     "region": "Internacional"
                 },
