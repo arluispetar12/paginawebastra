@@ -320,6 +320,43 @@
                 }
                 
             ]
+        }, {
+            "id": "estilodevida",
+            "nombre": "Estilo vida",
+            "icono": "fas fa-tv",
+            "canales": [
+                {
+                    "nombre": "HGTV",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/500px-HGTV_US_Logo_2015.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Más Chic",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_M%C3%A1s_Chic_%28canal_de_televisi%C3%B3n%29.svg/250px-Logo_M%C3%A1s_Chic_%28canal_de_televisi%C3%B3n%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Plus Life",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Plus_TV_Life.svg/420px-Plus_TV_Life.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "TLC",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/TLC_logo_%282023%29.svg/290px-TLC_logo_%282023%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Discovery Home & Health",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/300px-Discovery_Home_%26_Health_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }
+                
+            ]
         }
     ]   
 }
