@@ -144,7 +144,7 @@
         {
             "id": "infantiles",
             "nombre": "infantiles",
-            "icono": "fa-film",
+            "icono": "fas fa-baby",
             "canales": [
                 {
                     "nombre": "BABY TV",
