@@ -323,7 +323,7 @@
         }, {
             "id": "estilodevida",
             "nombre": "Estilo vida",
-            "icono": "fas fa-tv",
+            "icono": "fas fa-home",
             "canales": [
                 {
                     "nombre": "HGTV",
@@ -352,6 +352,68 @@
                 {
                     "nombre": "Discovery Home & Health",
                     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/300px-Discovery_Home_%26_Health_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                }
+                
+            ]
+        },
+        {
+            "id": "documentales",
+            "nombre": "Documentales",
+            "icono": "fas fa-globe",
+            "canales": [
+                {
+                    "nombre": "History 2",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/250px-History2_logo_%282022%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "TV Agro",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/TV_Agro_logo.svg/640px-TV_Agro_logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Discovery Theater",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/640px-2015_Discovery_theater_HD_logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Discovery Science",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/330px-Discovery_Science_2017_Logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "Animal Planet",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/500px-2018_Animal_Planet_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Internacional"
+                },
+                {
+                    "nombre": "Discovery Channel",
+                    "logo": "hhttps://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/500px-2019_Discovery_logo.svg.png",
+                    "calidad": "FHD",
+                    "region": "Internacional"
+                },
+                 {
+                    "nombre": "Discovery World",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/640px-World_Discovery_HD_logo.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "History",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/250px-History_%282021%29.svg.png",
+                    "calidad": "HD",
+                    "region": "Latinoamérica"
+                },
+                {
+                    "nombre": "National Geographic",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/400px-Natgeologo.svg.png",
                     "calidad": "HD",
                     "region": "Latinoamérica"
                 }
